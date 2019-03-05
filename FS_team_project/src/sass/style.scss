@@ -1,0 +1,199 @@
+html{
+    font-size: 14px;
+    font-family: 'Acrom', sans-serif;
+}
+.h1_hidden{
+    display: block;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    margin: 0;
+}
+
+.header_background {
+    background-color: #141d2d;
+    display: block;
+    height: 771px;
+    padding-bottom: 0px;
+    padding-top: 27px;
+    min-width: 320px;
+}
+
+.logo{
+    display:block;
+    margin-left: 30px;
+    margin-bottom: 19px;
+    min-width:260px;
+
+}
+
+.wrapper{
+    min-width:320px;
+    height:auto;
+    margin: 0 auto;
+}
+
+.hdr-wrapper{
+    display: block;
+    margin-left: 30px;
+    margin-right: 30px;
+    min-width:260px;
+}
+
+.hdr{
+    display: block;
+    width: 100%;
+    height: auto;
+    &__text{
+
+        &--1{
+            display: block;
+            width: 100%;
+            color: #fff;
+            font-size: 14px;
+            font-weight: normal;
+            line-height: 1.35rem;
+            letter-spacing:-0.04rem;
+            margin-bottom: 1.1rem;
+            margin-top: 0;
+        }
+        &--2{
+            color: #00eaff;
+            font-size: 20px;
+            font-weight: 800;
+            line-height: 1.9rem;
+            letter-spacing:-0.07rem;
+            margin-bottom: 1rem;
+            margin-top: 0;
+        }
+        &--3{
+            color: #fff;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 1.35rem;
+            letter-spacing:-0.004rem;
+            margin-bottom: 1.4rem;
+            margin-top: 0;
+        }
+        &--4{
+            color: #f9ae23;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 1rem;
+            letter-spacing:-0.045rem;
+            margin-bottom: 0.8rem;
+            margin-top: 0;
+        }
+        &--5{
+            color: #f9ae23;
+            font-size: 20px;
+            font-weight: 800;
+            line-height: 1rem;
+            letter-spacing:-0.06rem;
+            margin-bottom: 1.4rem;
+            margin-top: 0;
+            margin-left: -2px;
+        }
+    }
+}
+
+.head-form{
+    width: 220px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    height: 362px;
+    background:#fff;
+    margin: 0 auto;
+    &:hover{
+         -webkit-box-shadow: 0px 12px 70px rgba(121,139,188, 0.48);
+                 box-shadow: 0px 12px 70px rgba(121,139,188, 0.48);
+    }
+   
+    &__text{
+        display: block;
+        margin-top:0;
+        margin-bottom: 0.5rem;
+        font-size: 16px;
+        line-height: 1.45rem;
+        font-weight: 800;
+    }
+    &__subtext{
+        display: block;
+        margin-top: 0;
+        margin-bottom: 13px;
+        font-size: 13px;
+        line-height: 1.29rem;
+        letter-spacing:-0.02rem;
+        font-weight: 300;
+    }
+    &__name{
+        display: block;
+        color: #a2a2a2;
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 0;
+        margin-bottom: 12px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        height: 36px;
+        width: 86%;
+        border: 1px solid;
+
+    }
+    &__mail{
+        display: block;
+        color: #a2a2a2;
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 0;
+        margin-bottom: 12px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        height: 36px;
+        width: 86%;
+        border: 1px solid;
+
+    }
+    &__phone{
+        display: block;
+        color: #a2a2a2;
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 0;
+        margin-bottom: 20px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        height: 36px;
+        width: 86%;
+        border: 1px solid;
+
+    }
+    &__button{
+        display: block;
+        font-size: 16px;
+        font-weight: 800;
+        letter-spacing:0.02rem;
+        background-color: #ff6b08;
+        color: #fff;
+        border: none;
+        margin: 0 auto;
+        height: 40px;
+        min-width: 220px;
+        &:hover{
+            -webkit-box-shadow: 0px 2px 10px rgba(255,107,8, 0.52);
+                    box-shadow: 0px 2px 10px rgba(255,107,8, 0.52);
+        }
+    }
+}
+
+.politic{
+    display: block;
+    color: #5d6066;
+    font-size: 400;
+    font-size: 13px;
+    text-decoration: none;
+    margin-top: 35px;
+    text-align: center;
+    width:100%;
+}

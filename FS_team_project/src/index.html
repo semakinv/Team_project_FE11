@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
@@ -18,43 +18,47 @@
 
   <title>FE11</title>
   <link rel="stylesheet" href="css/styles.min.css">
+  <link rel="stylesheet" href="./fonts/stylesheet.css">
 </head>
 
 <body>
-  <header>
-    <a href="https://goit.ua/">
+  <header class="header_background">
+    <h1 class="h1_hidden">GoIT - курсы программирования</h1>
+    <a class="logo" href="https://goit.ua/">
       <img src="./images/LogoGoIT.png" width="100" height="30" alt="logo_GoIT">
     </a>
-    <div>
-      <h1 class="h1_hidden">GoIT - курсы программирования</h1>
-      <p>Бесплатная презентация для тех, кто хочет сменить профессию и начать
-      карьеру в IT-сфере</p>
-      <p>Узнай за 1 час каким
-      может быть твой путь в IT</p>
-      <p>Как с нуля всего за 3-5 месяцев
-      получить все необходимые знания
-      и навыки для уверенного старта
-      карьеры в IT.</p>
-      <p>Ближайшая встреча</p>
-      <p>Киев, 16 декабря 19:00</p>
-    </div>
-    <div>
-      <p>Оставьте заявку на
-      участие в бесплатной
-      презентации</p>
-      <p>С вами свяжется карьерный
-      консультант и ответит
-      на вопросы.</p>
-      <form action="" method="POST">
-        <input type="text" placeholder="Имя">
-        <input type="text" placeholder="Email">
-        <input type="text" placeholder="Телефон">
-        <input type="submit" value="ОСТАВИТЬ ЗАЯВКУ">
-      </form>
-      <a href="#">Политика конфиденциальности</a>
+    <div class="hdr-wrapper">
+      <div class="hdr">
+        <p class="hdr__text--1">Бесплатная презентация для тех, кто хочет сменить профессию и начать
+        карьеру в IT-сфере</p>
+        <p class="hdr__text--2">Узнай за 1 час каким
+        может быть твой путь в IT</p>
+        <p class="hdr__text--3">Как с нуля всего за 3-5 месяцев
+        получить все необходимые знания
+        и навыки для уверенного старта
+        карьеры в IT.</p>
+        <p class="hdr__text--4">Ближайшая встреча</p>
+        <p class="hdr__text--5">Киев, 16 декабря 19:00</p>
+      </div>
+    
+      <div class="head-form">
+        <p class="head-form__text">Оставьте заявку на
+        участие в бесплатной
+        презентации</p>
+        <p class="head-form__subtext">С вами свяжется карьерный
+        консультант и ответит
+        на вопросы.</p>
+        <form  action="#" method="POST">
+          <input class="head-form__name" type="text" placeholder="Имя">
+          <input class="head-form__mail" type="text" placeholder="Email">
+          <input class="head-form__phone" type="text" placeholder="Телефон">
+          <input class="head-form__button" type="submit" value="ОСТАВИТЬ ЗАЯВКУ">
+        </form>
+        <a class="politic" href="#">Политика конфиденциальности</a>
+      </div>
     </div>
   </header>
-  <main>
+  <main class="wrapper">
     <section>
       <h2>[ На консультации ты
       получишь ответы на все
@@ -362,12 +366,14 @@
       </div>
     </section>
   </main>
-  <footer>
-    <a href="#">ОСТАВИТЬ ЗАЯВКУ</a>
-    <a href="https://goit.ua/">
-      <img src="./images/LogoGoIT.png" width="100" height="30" alt="logo_GoIT">
-    </a>
-    <p>Создай свою историю успеха!</p>
+  <footer class="wrapper">
+    <div>
+      <a href="#">ОСТАВИТЬ ЗАЯВКУ</a>
+      <a href="https://goit.ua/">
+        <img src="./images/LogoGoIT.png" width="100" height="30" alt="logo_GoIT">
+      </a>
+      <p>Создай свою историю успеха!</p>
+    </div>
   </footer>
   
   <script src="js/scripts.min.js"></script>
